@@ -8,6 +8,10 @@ a {
   text-decoration: none;
   color: #707070;
 }
+a,
+img {
+  -webkit-tap-highlight-color: transparent;
+}
 @media screen and (min-width: 750px) {
   html {
     font-size: 37.5px !important;
